@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script
+    src="https://code.jquery.com/jquery-3.6.3.js"
+    integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
+    <title>Quarto Andar</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Quarto Andar</h1>
+        </div>
+        <div>
+            <a href="">menu</a>
+            <a href="">menu</a>
+            <a href="">menu</a>
+            <a href="">menu</a>
+        </div>
+    </header>
+    <main>
+        <div id="logo">
+            <div id="primeiro" class="andares"></div>
+            <div id="segundo" class="andares"></div>
+            <div id="terceiro" class="andares"></div>
+            <div id="quarto" class="andares">
+                <p>4° ANDAR</p>
+                <section>
+                    <div class="bolinhas"></div>
+                    <div class="bolinhas"></div>
+                    <div class="bolinhas"></div>
+                </section>
+            </div>
+        </div>
+        <section id="sectionBotaoEform">
+            <input type="button" id="buttonForm" onclick="expandirForm()" value="Click">
+            <div id="form">
+            <h2> Entre em contato conosco</h2>
+            <form>
+                <label for="name">Nome: </label>
+                <input type="text" id="inputName" name="name">
+                <label for="email">Email: </label>
+                <input type="text" id="inputEmail" name="email">
+                <label for="subject">Assunto: </label>
+                <textarea id="inputSubject" name="subject"></textarea>
+                <input type="submit" id="submitButton" value="Enviar">
+            </form>
+        </div>
+        </section>
+        
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
